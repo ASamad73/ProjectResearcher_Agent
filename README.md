@@ -56,9 +56,3 @@ streamlit run app.py
 ```
 
 This opens a simple interface where you can type a question and see the structured answer, including which projects and sources it drew from.
-
-## What this project was for
-
-This was built as a practice project after working through LangChain and LangGraph tutorials, with the goal of building something from scratch rather than following a guided walkthrough. It was intentionally scoped to be small enough to build alone while still covering the core mechanics behind more advanced agents: tool calling, memory, structured output, and a multi step reasoning loop.
-
-It is a stepping stone toward a more advanced multi agent system currently in progress, where a supervisor agent delegates sub tasks to specialist agents rather than a single agent doing everything itself.
